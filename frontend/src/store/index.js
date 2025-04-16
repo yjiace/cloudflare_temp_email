@@ -27,23 +27,7 @@ export const useGlobalState = createGlobalState(
             defaultDomains: [],
             /** @type {Array<{label: string, value: string}>} */
             domains: [],
-            copyright: `
-            <footer>
-                <div style="padding: 20px;">
-                    <div style="text-align: center;">
-                    <div style="color: black;"> © 
-                        <a  style="color: black; text-decoration: none;" href="https://beian.miit.gov.cn/" target="_blank"> 冀ICP备17000836号-2 </a>
-                    </div>
-                    </div>
-                    <div style="text-align: center;">
-                    <div style="color: black;">
-                        <img src="//cdn.smallyoung.cn/libs/image/beian.png" alt="冀公网安备 13018102000160号" style="vertical-align:middle;">
-                        <a style="color: black;text-decoration: none;" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13018102000160">冀公网安备
-                        13018102000160号</a>
-                    </div>
-                    </div>
-                </div>
-             </footer>`,
+            copyright: ``,
             cfTurnstileSiteKey: '',
             enableWebhook: false,
             isS3Enabled: false,
