@@ -23,7 +23,11 @@ const { t } = useI18n({
         <div style="text-align: center; padding: 20px">
             <n-space justify="center">
                 <n-text depth="3">
-                    {{ t('copyright') }} © 2023-{{ new Date().getFullYear() }}
+                    © <a  style="color: black; text-decoration: none;" href="https://beian.miit.gov.cn/" target="_blank"> 冀ICP备17000836号-2 </a>
+                </n-text><n-text depth="3">
+                  <img src="//cdn.smallyoung.cn/libs/image/beian.png" alt="冀公网安备 13018102000160号" style="vertical-align:middle;">
+                        <a style="color: black;text-decoration: none;" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13018102000160">冀公网安备
+                        13018102000160号</a>
                 </n-text>
                 <n-text depth="3">
                     <div v-html="openSettings.copyright"></div>
